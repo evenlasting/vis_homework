@@ -6,7 +6,9 @@
         <div class="grid-foot bg-purple-dark"></div>
       </el-col>
       <el-col :span="16">
-        <div class="grid-content bg-purple-light"></div>
+        <div class="grid-content bg-purple-light">
+          <Map/>
+        </div>
       </el-col>
       <el-col :span="4">
         <div class="grid-content bg-purple"></div>
@@ -19,11 +21,13 @@
 
 <script>
 //import HelloWorld from './components/HelloWorld.vue'
+import Map from './components/Map.vue'
 
 export default {
   name: 'App',
   components: {
     //HelloWorld
+    Map
   }
 }
 </script>
