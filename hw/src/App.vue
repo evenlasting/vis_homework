@@ -2,8 +2,12 @@
   <div id="app">
     <el-row>
       <el-col :span="4">
-        <div class="grid-head bg-purple"></div>
-        <div class="grid-foot bg-purple-dark"></div>
+        <div class="grid-head bg-dark">
+        <Timeselect/>
+        </div>
+        <div class="grid-foot bg-purple-dark">
+        <Cityselect/>
+        </div>
       </el-col>
       <el-col :span="16">
         <div class="grid-content bg-purple-light">
@@ -11,7 +15,9 @@
         </div>
       </el-col>
       <el-col :span="4">
-        <div class="grid-content bg-purple"></div>
+        <div class="grid-content bg-purple">
+        <Tree/>
+        </div>
       </el-col>
     </el-row>
 
@@ -22,12 +28,19 @@
 <script>
 //import HelloWorld from './components/HelloWorld.vue'
 import Map from './components/Map.vue'
+import Timeselect from './components/Timeselect.vue'
+import Cityselect from './components/Cityselect.vue'
+import Tree from
+ './components/Tree.vue'
 
 export default {
   name: 'App',
   components: {
     //HelloWorld
-    Map
+    Timeselect,
+    Map,
+    Cityselect,
+    Tree
   }
 }
 </script>
@@ -39,7 +52,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 .el-row {
   margin-bottom: 20px;
@@ -48,28 +61,32 @@ export default {
   }
 }
 .el-col {
-  border-radius: 4px;
+   border-radius: 0px
 }
 .bg-purple-dark {
-  background: #99a9bf;
+  background: #000000;
 }
 .bg-purple {
-  background: #d3dce6;
+  background: #000000;
+}
+.bg-dark{
+  background: #000000;
 }
 .bg-purple-light {
-  background: #e5e9f2;
+  background: #000000;
 }
 .grid-content {
-  border-radius: 4px;
+  border-radius: 0px;
   min-height: 700px;
 }
 .grid-foot{
-  border-radius: 4px;
-  min-height: 350px;
+  border-radius: 0px;
+  min-height: 660px;
 }
 .grid-head{
-  border-radius: 4px;
-  min-height: 350px;
+  padding-top:20px;
+  border-radius: 0px;
+  padding-bottom: 100px
 }
 .row-bg {
   padding: 10px 0;
