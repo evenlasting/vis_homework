@@ -8,6 +8,12 @@ import mapboxgl from 'mapbox-gl';
 export default {
   name: 'Map',
   props: {
+    time:{
+      default:new Date()
+    },
+    cities:{
+      default:[]
+    }
   },
   mounted(){
     mapboxgl.accessToken = 'pk.eyJ1IjoiZXZlbmxhc3RpbmciLCJhIjoiY2tjbHhvMnh3MDk1NDJ5bGo2amN0a3RxYSJ9._0aKqW2jedZkRCmXXIi1SQ';
@@ -22,7 +28,7 @@ export default {
     map.on('load',function(){
       map.addSource('trees',{
         type: 'geojson',
-        data: './trees.geojson'
+        data: './test(1).geojson'
       });
       map.addLayer({
         id: 'trees-heat',
@@ -36,7 +42,7 @@ export default {
         type: 'exponential',
         stops: [
         [1, 0],
-        [62, 1]
+        [1000, 1]
         ]
         },
         // increase intensity as zoom level increases
@@ -60,8 +66,8 @@ export default {
         // increase radius as zoom increases
         'heatmap-radius': {
         stops: [
-        [11, 15],
-        [15, 20]
+          [1,5],
+          [9,100]
         ]
         },
         // decrease opacity to transition into the circle layer
@@ -122,6 +128,11 @@ export default {
 <style>
 #Map {
   overflow:visible;
-  height:700px
+  height:700px;
+  z-index:0 !important;
+  border:0px
+}
+.mapboxgl-canvas{
+  z-index:0 !important;
 }
 </style>

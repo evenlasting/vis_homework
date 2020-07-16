@@ -1,0 +1,954 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "name": "Cleburne",
+      "properties": {
+        "dbh": "39"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.56364766666667,
+          33.69005179166666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Conecuh",
+      "properties": {
+        "dbh": "219"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.99922913725487,
+          31.433819941176473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Covington",
+      "properties": {
+        "dbh": "380"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.44212336170212,
+          31.200712212765957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Fayette",
+      "properties": {
+        "dbh": "75"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.703312,
+          33.68345155555555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Franklin",
+      "properties": {
+        "dbh": "907"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.96324466666667,
+          34.40330322222222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Hale",
+      "properties": {
+        "dbh": "320"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.71069317948718,
+          32.761835128205135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Henry",
+      "properties": {
+        "dbh": "137"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.09572997478995,
+          31.54351453781514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Lawrence",
+      "properties": {
+        "dbh": "112"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.41513846666666,
+          34.64432234666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Lowndes",
+      "properties": {
+        "dbh": "482"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.66370937209304,
+          32.28820941860465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Pickens",
+      "properties": {
+        "dbh": "241"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.12405239285714,
+          33.20845778571429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Randolph",
+      "properties": {
+        "dbh": "218"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.47923159999999,
+          33.3145826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Shelby",
+      "properties": {
+        "dbh": "1376"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.66332366666667,
+          33.264901391304356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "St. Clair",
+      "properties": {
+        "dbh": "426"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.27154312500001,
+          33.7141759125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Tuscaloosa",
+      "properties": {
+        "dbh": "2368"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.34833677966101,
+          33.343572186440674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Walker",
+      "properties": {
+        "dbh": "998"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.19964672727272,
+          33.75614247272728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Washington",
+      "properties": {
+        "dbh": "121"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1404499107143,
+          31.415759696428562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Bibb",
+      "properties": {
+        "dbh": "199"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.1223777878788,
+          33.05320857575758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Chambers",
+      "properties": {
+        "dbh": "656"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.22201956140351,
+          32.826896631578954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Clarke",
+      "properties": {
+        "dbh": "284"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8820908080808,
+          31.55900778787879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Crenshaw",
+      "properties": {
+        "dbh": "129"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.28821263157896,
+          31.70561086842106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Elmore",
+      "properties": {
+        "dbh": "975"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.13486683823528,
+          32.54507616176471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Etowah",
+      "properties": {
+        "dbh": "801"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.07663123529412,
+          33.97317566666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Geneva",
+      "properties": {
+        "dbh": "84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.93737426923076,
+          31.05584519230769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Jefferson",
+      "properties": {
+        "dbh": "5538"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.98207883333332,
+          33.51136270833333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Lamar",
+      "properties": {
+        "dbh": "81"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.19884578571431,
+          33.76372107142857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Lee",
+      "properties": {
+        "dbh": "1459"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.20257878750002,
+          32.638515175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Madison",
+      "properties": {
+        "dbh": "1579"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4541594142857,
+          34.743625099999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Marengo",
+      "properties": {
+        "dbh": "319"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8640705510204,
+          32.29220830612245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Marion",
+      "properties": {
+        "dbh": "240"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0244794,
+          34.10516385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Montgomery",
+      "properties": {
+        "dbh": "4293"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.23791732258067,
+          32.353493645161294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Russell",
+      "properties": {
+        "dbh": "574"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.00645199999997,
+          32.27008622480621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Sumter",
+      "properties": {
+        "dbh": "286"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.11057388679244,
+          32.590947830188675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Talladega",
+      "properties": {
+        "dbh": "331"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.20280767605634,
+          33.436572830985924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Unknown",
+      "properties": {
+        "dbh": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Wilcox",
+      "properties": {
+        "dbh": "296"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.35020531578948,
+          32.06823784210526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Autauga",
+      "properties": {
+        "dbh": "644"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.73703062745099,
+          32.45707803921567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Barbour",
+      "properties": {
+        "dbh": "360"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.18847877692306,
+          31.905200007692315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Bullock",
+      "properties": {
+        "dbh": "373"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.74013355882354,
+          32.09962008823529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Butler",
+      "properties": {
+        "dbh": "634"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.70571104761905,
+          31.708967095238098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Calhoun",
+      "properties": {
+        "dbh": "395"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.86006816129033,
+          33.78079393548386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Choctaw",
+      "properties": {
+        "dbh": "198"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.19894484905662,
+          31.987023056603764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Coffee",
+      "properties": {
+        "dbh": "391"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.07402223076923,
+          31.40564515384615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Colbert",
+      "properties": {
+        "dbh": "435"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.59727907058827,
+          34.694693529411765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Coosa",
+      "properties": {
+        "dbh": "59"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.32565815151517,
+          32.90569339393939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Dale",
+      "properties": {
+        "dbh": "305"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.61535015000001,
+          31.372187000000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Dallas",
+      "properties": {
+        "dbh": "918"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.07944055384614,
+          32.392633446153845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Lauderdale",
+      "properties": {
+        "dbh": "503"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.73426689333333,
+          34.92170218666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Limestone",
+      "properties": {
+        "dbh": "523"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.99342313333334,
+          34.85084726666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Marshall",
+      "properties": {
+        "dbh": "1781"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.27795670454545,
+          34.51366138636364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Perry",
+      "properties": {
+        "dbh": "179"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.24743479999998,
+          32.63167526666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Pike",
+      "properties": {
+        "dbh": "459"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9349628857143,
+          31.826133371428575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Tallapoosa",
+      "properties": {
+        "dbh": "612"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.85604713888891,
+          32.759584833333335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Winston",
+      "properties": {
+        "dbh": "269"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.32436273333333,
+          34.13915173333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Cherokee",
+      "properties": {
+        "dbh": "106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.57934246666667,
+          34.23925375555556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Clay",
+      "properties": {
+        "dbh": "69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.88373718518515,
+          33.32349562962963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Cullman",
+      "properties": {
+        "dbh": "478"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.80350816901405,
+          34.03346318309858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "DeKalb",
+      "properties": {
+        "dbh": "770"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.70940674468083,
+          34.5220764680851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Escambia",
+      "properties": {
+        "dbh": "411"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.14087453164554,
+          31.039641531645568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Houston",
+      "properties": {
+        "dbh": "525"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.15257870103093,
+          31.1527494226804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Jackson",
+      "properties": {
+        "dbh": "306"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.14223005376343,
+          34.6940566451613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Macon",
+      "properties": {
+        "dbh": "203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.81923142105265,
+          32.41549636842106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Mobile",
+      "properties": {
+        "dbh": "4243"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1549992222222,
+          30.597237285714296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Monroe",
+      "properties": {
+        "dbh": "243"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.42276703225807,
+          31.48862850000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Morgan",
+      "properties": {
+        "dbh": "1142"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.79248119999998,
+          34.54037076000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Baldwin",
+      "properties": {
+        "dbh": "997"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6168133493977,
+          30.642219496987945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Greene",
+      "properties": {
+        "dbh": "186"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.91256447826085,
+          32.813304405797105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Blount",
+      "properties": {
+        "dbh": "255"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.65997949367089,
+          33.9841096835443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "name": "Chilton",
+      "properties": {
+        "dbh": "270"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.66083938235295,
+          32.88073194117648
+        ]
+      }
+    }
+  ]
+}

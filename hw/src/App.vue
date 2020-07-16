@@ -5,18 +5,18 @@
         <div class="grid-head bg-dark">
         <Timeselect @timeChange='timeChange'></Timeselect>
         </div>
-        <div class="grid-foot bg-purple-dark">
+        <div class="grid-foot bg-dark">
         <Cityselect @cityChange='cityChange'></Cityselect>
         </div>
       </el-col>
       <el-col :span="16">
         <div class="grid-content bg-purple-light">
-          <Map/>
+          <Map v-bind:cities='cityArr' v-bind:time='time'></Map>
         </div>
       </el-col>
       <el-col :span="4">
-        <div class="grid-content bg-purple">
-        <Tree/>
+        <div class="grid-content bg-dark">
+        <Tree v-bind:cities='cityArr' v-bind:time='time'></Tree>
         </div>
       </el-col>
     </el-row>
@@ -38,7 +38,8 @@ export default {
   data(){
     return{
       cityArr:[],
-      time:null
+      time:new Date(),
+      timeDate:(new Date()).getDate()
     }
   },
   components: {
@@ -55,6 +56,7 @@ export default {
     },
     timeChange:function(time){
       this.time=time
+      this.timeDate=time.getDate()
       console.log(this.time)
     }
   }
@@ -87,6 +89,7 @@ export default {
 }
 .bg-dark{
   background: #000000;
+  z-index:9999
 }
 .bg-purple-light {
   background: #000000;

@@ -6,13 +6,37 @@
 <script>
 export default {
   name: "app",
+  watch:{
+      time:{
+          handler(val,oldVal){
+              console.log(val,oldVal)
+          },
+          deep:true,
+          immediate: true,
+      },
+      cities:{
+          handler(val,oldVal){
+              console.log(val,oldVal)
+              console.log(this.time)
+          },
+          deep:true
+      }
+  },
+  props:{
+    time:{
+      default:new Date()
+    },
+    cities:{
+      default:[]
+    }
+  },
   methods: {
     drawChart() {
       // 基于准备好的dom，初始化echarts实例
       let myChart = this.$echarts.init(document.getElementById("main"));
       // 指定图表的配置项和数据
       myChart.showLoading();
-      this.$axios.get('./disk.tree.json').then(diskData => {
+      this.$axios.get('./test_tree.json').then(diskData => {
         myChart.hideLoading();
         diskData=diskData.data
 
