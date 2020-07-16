@@ -38,8 +38,8 @@ export default {
   data(){
     return{
       cityArr:[],
-      time:new Date(),
-      timeDate:(new Date()).getDate()
+      time:new Date(2020,6,7),
+      timeDate:(new Date(2020,6,7)).getDate()
     }
   },
   components: {

@@ -8,7 +8,7 @@
 
 <script>
 
-let today=new Date()
+let today=new Date(2020,6,7)
 
 export default {
   name: 'Timeselect',

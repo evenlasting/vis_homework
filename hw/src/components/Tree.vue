@@ -26,10 +26,10 @@ export default {
   },
   props:{
     time:{
-      default:new Date()
+      default:new Date(2020,6,7)
     },
     timeDate:{
-        default:(new Date()).getDate()
+        default:(new Date(2020,6,7)).getDate()
     },
     cities:{
       default:['Alabama']
@@ -42,7 +42,7 @@ export default {
       // 指定图表的配置项和数据
       let url='http://10.76.5.129:5000/api/tree?cities='
       let citiesUrl=this.cities.join('+')
-      let timeUrl='&d='+String(this.time.getDate())+'&m='+String(this.time.getMonth())+'&y='+String(this.time.getFullYear)
+      let timeUrl='&d='+String(this.time.getDate())+'&m='+String(this.time.getMonth()+1)+'&y='+String(this.time.getFullYear())
       url=url+citiesUrl+timeUrl
       this.$axios.get(url).then(diskData => {
         diskData=diskData.data
