@@ -9,12 +9,20 @@
 </template>
 
 <script>
-  const cityOptions = ['上海', '北京', '广州', '深圳'];
+  const cityOptions = ['Alabama', 'Alaska','Arizona', 'Arkansas', 'California', 'Colorado',
+    'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 
+    'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 
+    'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire',
+    'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 
+    'Pennsylvania', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Connecticut', 'Guam', 'Utah', 
+    'Vermont', 'Virgin Islands', 'Virginia', 'Washington', 'Northern Mariana Islands', 'Rhode Island', 'West Virginia',
+    'Wisconsin', 'Wyoming', 'Puerto Rico'];
   export default {
     data() {
       return {
         checkAll: false,
-        checkedCities: ['上海', '北京'],
+        checkedCities: ['Alabama', 'Alaska','Arizona', 'Arkansas', 'California', 'Colorado',
+    'Delaware'],
         cities: cityOptions,
         isIndeterminate: true
       };

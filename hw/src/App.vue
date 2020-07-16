@@ -11,12 +11,12 @@
       </el-col>
       <el-col :span="16">
         <div class="grid-content bg-purple-light">
-          <Map v-bind:cities='cityArr' v-bind:time='time'></Map>
+          <Map v-bind:cities='cityArr' v-bind:time='time' v-bind:timeDate='timeDate'></Map>
         </div>
       </el-col>
       <el-col :span="4">
         <div class="grid-content bg-dark">
-        <Tree v-bind:cities='cityArr' v-bind:time='time'></Tree>
+        <Tree v-bind:cities='cityArr' v-bind:time='time' v-bind:timeDate='timeDate'></Tree>
         </div>
       </el-col>
     </el-row>
@@ -103,9 +103,9 @@ export default {
   min-height: 660px;
 }
 .grid-head{
-  padding-top:20px;
+  padding-top:10px;
   border-radius: 0px;
-  padding-bottom: 100px
+  padding-bottom: 10px
 }
 .row-bg {
   padding: 10px 0;

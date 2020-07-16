@@ -7,9 +7,10 @@
 export default {
   name: "app",
   watch:{
-      time:{
+      timeDate:{
           handler(val,oldVal){
-              console.log(val,oldVal)
+              console.log(val,oldVal,this.time)
+              this.drawChart()
           },
           deep:true,
           immediate: true,
@@ -18,6 +19,7 @@ export default {
           handler(val,oldVal){
               console.log(val,oldVal)
               console.log(this.time)
+              this.drawChart()
           },
           deep:true
       }
@@ -26,8 +28,11 @@ export default {
     time:{
       default:new Date()
     },
+    timeDate:{
+        default:(new Date()).getDate()
+    },
     cities:{
-      default:[]
+      default:['Alabama']
     }
   },
   methods: {
@@ -35,9 +40,11 @@ export default {
       // 基于准备好的dom，初始化echarts实例
       let myChart = this.$echarts.init(document.getElementById("main"));
       // 指定图表的配置项和数据
-      myChart.showLoading();
-      this.$axios.get('./test_tree.json').then(diskData => {
-        myChart.hideLoading();
+      let url='http://10.76.5.129:5000/api/tree?cities='
+      let citiesUrl=this.cities.join('+')
+      let timeUrl='&d='+String(this.time.getDate())+'&m='+String(this.time.getMonth())+'&y='+String(this.time.getFullYear)
+      url=url+citiesUrl+timeUrl
+      this.$axios.get(url).then(diskData => {
         diskData=diskData.data
 
         var formatUtil = this.$echarts.format;

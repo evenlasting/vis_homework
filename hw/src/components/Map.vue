@@ -7,9 +7,28 @@ import mapboxgl from 'mapbox-gl';
 
 export default {
   name: 'Map',
+  watch:{
+      timeDate:{
+          handler(val,oldVal){
+              console.log(val,oldVal,this.time)
+          },
+          deep:true,
+          immediate: true,
+      },
+      cities:{
+          handler(val,oldVal){
+              console.log(val,oldVal)
+              console.log(this.time)
+          },
+          deep:true
+      }
+  },
   props: {
     time:{
       default:new Date()
+    },
+    timeDate:{
+        default:(new Date()).getDate()
     },
     cities:{
       default:[]
