@@ -10,14 +10,6 @@ export default {
   props: {
   },
   mounted(){
-    // mapboxgl.accessToken = 'pk.eyJ1Ijoia3dhbGtlcnRjdSIsImEiOiJMRk9JSmRvIn0.l1y2jHZ6IARHM_rA1-X45A';
-    // const map = new mapboxgl.Map({
-    // container: 'Map',
-    // style: 'mapbox://styles/kwalkertcu/cizbggjq6006w2rnqzkmf6i0k', // stylesheet location
-    // center: [-122.447303, 37.753574], // starting position [lng, lat]
-    // zoom: 9 ,// starting zoom,
-    // hash:true
-    // });
     mapboxgl.accessToken = 'pk.eyJ1IjoiZXZlbmxhc3RpbmciLCJhIjoiY2tjbHhvMnh3MDk1NDJ5bGo2amN0a3RxYSJ9._0aKqW2jedZkRCmXXIi1SQ';
     var map = new mapboxgl.Map({
     container: 'Map',
@@ -30,7 +22,7 @@ export default {
     map.on('load',function(){
       map.addSource('trees',{
         type: 'geojson',
-      data: './trees.geojson'
+        data: './trees.geojson'
       });
       map.addLayer({
         id: 'trees-heat',
@@ -82,8 +74,47 @@ export default {
         },
         }
         }, 'waterway-label');
-      
-    })
+      map.addLayer({
+        id: 'trees-point',
+        type: 'circle',
+        source: 'trees',
+        minzoom: 14,
+        paint: {
+        // increase the radius of the circle as the zoom level and dbh value increases
+        'circle-radius': {
+        property: 'dbh',
+        type: 'exponential',
+        stops: [
+        [{zoom: 15, value: 1 }, 5],
+        [{zoom: 15, value: 62 }, 10],
+        [{zoom: 22, value: 1 }, 20],
+        [{zoom: 22, value: 62 }, 50],
+        ]
+        },
+        'circle-color': {
+        property: 'dbh',
+        type: 'exponential',
+        stops: [
+        [0, 'rgba(236,222,239,0)'],
+        [10, 'rgb(236,222,239)'],
+        [20, 'rgb(208,209,230)'],
+        [30, 'rgb(166,189,219)'],
+        [40, 'rgb(103,169,207)'],
+        [50, 'rgb(28,144,153)'],
+        [60, 'rgb(1,108,89)']
+        ]
+        },
+        'circle-stroke-color': 'white',
+        'circle-stroke-width': 1,
+        'circle-opacity': {
+        stops: [
+        [14, 0],
+        [15, 1]
+        ]
+        }
+        }
+        }, 'waterway-label')
+    });
   }
 }
 </script>

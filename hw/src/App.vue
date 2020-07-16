@@ -3,10 +3,10 @@
     <el-row>
       <el-col :span="4">
         <div class="grid-head bg-dark">
-        <Timeselect/>
+        <Timeselect @timeChange='timeChange'></Timeselect>
         </div>
         <div class="grid-foot bg-purple-dark">
-        <Cityselect/>
+        <Cityselect @cityChange='cityChange'></Cityselect>
         </div>
       </el-col>
       <el-col :span="16">
@@ -35,12 +35,28 @@ import Tree from
 
 export default {
   name: 'App',
+  data(){
+    return{
+      cityArr:[],
+      time:null
+    }
+  },
   components: {
     //HelloWorld
     Timeselect,
     Map,
     Cityselect,
     Tree
+  },
+  methods:{
+    cityChange:function(cityArr){
+      this.cityArr=cityArr
+      console.log(this.cityArr)
+    },
+    timeChange:function(time){
+      this.time=time
+      console.log(this.time)
+    }
   }
 }
 </script>

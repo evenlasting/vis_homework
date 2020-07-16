@@ -22,10 +22,12 @@ export default {
     minusDate:function(){
       today.setDate(today.getDate()-1)
       this.dateString=today.toDateString()
+      this.$emit("timeChange",today)
     },
     addDate:function(){
       today.setDate(today.getDate()+1)
       this.dateString=today.toDateString()
+      this.$emit("timeChange",today)
     }
   }
 }
