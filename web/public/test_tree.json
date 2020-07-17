@@ -1,0 +1,347 @@
+[{
+  "value": 45785,
+  "name": "Alabama",
+  "path": "Alabama",
+  "children": [
+    {
+      "value": "39",
+      "name": "Cleburne",
+      "path": "Alabama/Cleburne"
+    },
+    {
+      "value": "219",
+      "name": "Conecuh",
+      "path": "Alabama/Conecuh"
+    },
+    {
+      "value": "380",
+      "name": "Covington",
+      "path": "Alabama/Covington"
+    },
+    {
+      "value": "75",
+      "name": "Fayette",
+      "path": "Alabama/Fayette"
+    },
+    {
+      "value": "907",
+      "name": "Franklin",
+      "path": "Alabama/Franklin"
+    },
+    {
+      "value": "320",
+      "name": "Hale",
+      "path": "Alabama/Hale"
+    },
+    {
+      "value": "137",
+      "name": "Henry",
+      "path": "Alabama/Henry"
+    },
+    {
+      "value": "112",
+      "name": "Lawrence",
+      "path": "Alabama/Lawrence"
+    },
+    {
+      "value": "482",
+      "name": "Lowndes",
+      "path": "Alabama/Lowndes"
+    },
+    {
+      "value": "241",
+      "name": "Pickens",
+      "path": "Alabama/Pickens"
+    },
+    {
+      "value": "218",
+      "name": "Randolph",
+      "path": "Alabama/Randolph"
+    },
+    {
+      "value": "1376",
+      "name": "Shelby",
+      "path": "Alabama/Shelby"
+    },
+    {
+      "value": "426",
+      "name": "St. Clair",
+      "path": "Alabama/St. Clair"
+    },
+    {
+      "value": "2368",
+      "name": "Tuscaloosa",
+      "path": "Alabama/Tuscaloosa"
+    },
+    {
+      "value": "998",
+      "name": "Walker",
+      "path": "Alabama/Walker"
+    },
+    {
+      "value": "121",
+      "name": "Washington",
+      "path": "Alabama/Washington"
+    },
+    {
+      "value": "199",
+      "name": "Bibb",
+      "path": "Alabama/Bibb"
+    },
+    {
+      "value": "656",
+      "name": "Chambers",
+      "path": "Alabama/Chambers"
+    },
+    {
+      "value": "284",
+      "name": "Clarke",
+      "path": "Alabama/Clarke"
+    },
+    {
+      "value": "129",
+      "name": "Crenshaw",
+      "path": "Alabama/Crenshaw"
+    },
+    {
+      "value": "975",
+      "name": "Elmore",
+      "path": "Alabama/Elmore"
+    },
+    {
+      "value": "801",
+      "name": "Etowah",
+      "path": "Alabama/Etowah"
+    },
+    {
+      "value": "84",
+      "name": "Geneva",
+      "path": "Alabama/Geneva"
+    },
+    {
+      "value": "5538",
+      "name": "Jefferson",
+      "path": "Alabama/Jefferson"
+    },
+    {
+      "value": "81",
+      "name": "Lamar",
+      "path": "Alabama/Lamar"
+    },
+    {
+      "value": "1459",
+      "name": "Lee",
+      "path": "Alabama/Lee"
+    },
+    {
+      "value": "1579",
+      "name": "Madison",
+      "path": "Alabama/Madison"
+    },
+    {
+      "value": "319",
+      "name": "Marengo",
+      "path": "Alabama/Marengo"
+    },
+    {
+      "value": "240",
+      "name": "Marion",
+      "path": "Alabama/Marion"
+    },
+    {
+      "value": "4293",
+      "name": "Montgomery",
+      "path": "Alabama/Montgomery"
+    },
+    {
+      "value": "574",
+      "name": "Russell",
+      "path": "Alabama/Russell"
+    },
+    {
+      "value": "286",
+      "name": "Sumter",
+      "path": "Alabama/Sumter"
+    },
+    {
+      "value": "331",
+      "name": "Talladega",
+      "path": "Alabama/Talladega"
+    },
+    {
+      "value": "0",
+      "name": "Unknown",
+      "path": "Alabama/Unknown"
+    },
+    {
+      "value": "296",
+      "name": "Wilcox",
+      "path": "Alabama/Wilcox"
+    },
+    {
+      "value": "644",
+      "name": "Autauga",
+      "path": "Alabama/Autauga"
+    },
+    {
+      "value": "360",
+      "name": "Barbour",
+      "path": "Alabama/Barbour"
+    },
+    {
+      "value": "373",
+      "name": "Bullock",
+      "path": "Alabama/Bullock"
+    },
+    {
+      "value": "634",
+      "name": "Butler",
+      "path": "Alabama/Butler"
+    },
+    {
+      "value": "395",
+      "name": "Calhoun",
+      "path": "Alabama/Calhoun"
+    },
+    {
+      "value": "198",
+      "name": "Choctaw",
+      "path": "Alabama/Choctaw"
+    },
+    {
+      "value": "391",
+      "name": "Coffee",
+      "path": "Alabama/Coffee"
+    },
+    {
+      "value": "435",
+      "name": "Colbert",
+      "path": "Alabama/Colbert"
+    },
+    {
+      "value": "59",
+      "name": "Coosa",
+      "path": "Alabama/Coosa"
+    },
+    {
+      "value": "305",
+      "name": "Dale",
+      "path": "Alabama/Dale"
+    },
+    {
+      "value": "918",
+      "name": "Dallas",
+      "path": "Alabama/Dallas"
+    },
+    {
+      "value": "503",
+      "name": "Lauderdale",
+      "path": "Alabama/Lauderdale"
+    },
+    {
+      "value": "523",
+      "name": "Limestone",
+      "path": "Alabama/Limestone"
+    },
+    {
+      "value": "1781",
+      "name": "Marshall",
+      "path": "Alabama/Marshall"
+    },
+    {
+      "value": "179",
+      "name": "Perry",
+      "path": "Alabama/Perry"
+    },
+    {
+      "value": "459",
+      "name": "Pike",
+      "path": "Alabama/Pike"
+    },
+    {
+      "value": "612",
+      "name": "Tallapoosa",
+      "path": "Alabama/Tallapoosa"
+    },
+    {
+      "value": "269",
+      "name": "Winston",
+      "path": "Alabama/Winston"
+    },
+    {
+      "value": "106",
+      "name": "Cherokee",
+      "path": "Alabama/Cherokee"
+    },
+    {
+      "value": "69",
+      "name": "Clay",
+      "path": "Alabama/Clay"
+    },
+    {
+      "value": "478",
+      "name": "Cullman",
+      "path": "Alabama/Cullman"
+    },
+    {
+      "value": "770",
+      "name": "DeKalb",
+      "path": "Alabama/DeKalb"
+    },
+    {
+      "value": "411",
+      "name": "Escambia",
+      "path": "Alabama/Escambia"
+    },
+    {
+      "value": "525",
+      "name": "Houston",
+      "path": "Alabama/Houston"
+    },
+    {
+      "value": "306",
+      "name": "Jackson",
+      "path": "Alabama/Jackson"
+    },
+    {
+      "value": "203",
+      "name": "Macon",
+      "path": "Alabama/Macon"
+    },
+    {
+      "value": "4243",
+      "name": "Mobile",
+      "path": "Alabama/Mobile"
+    },
+    {
+      "value": "243",
+      "name": "Monroe",
+      "path": "Alabama/Monroe"
+    },
+    {
+      "value": "1142",
+      "name": "Morgan",
+      "path": "Alabama/Morgan"
+    },
+    {
+      "value": "997",
+      "name": "Baldwin",
+      "path": "Alabama/Baldwin"
+    },
+    {
+      "value": "186",
+      "name": "Greene",
+      "path": "Alabama/Greene"
+    },
+    {
+      "value": "255",
+      "name": "Blount",
+      "path": "Alabama/Blount"
+    },
+    {
+      "value": "270",
+      "name": "Chilton",
+      "path": "Alabama/Chilton"
+    }
+  ]
+}]
